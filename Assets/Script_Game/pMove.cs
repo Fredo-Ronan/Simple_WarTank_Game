@@ -8,7 +8,10 @@ public class pMove : MonoBehaviour
 {
     public TMP_Text uiPoint;
 
+    private float xDir, yDir;
+
     public float speed;
+    public float rotateSpeed;
     private Rigidbody rig;
 
     public int score =0;
@@ -25,13 +28,19 @@ public class pMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float xDir = Input.GetAxis("Horizontal");
-        float yDir = Input.GetAxis("Vertical");
+        xDir = Input.GetAxis("Horizontal");
+        yDir = Input.GetAxis("Vertical");
 
         Vector3 moveDir = new Vector3(xDir, 0.0f, yDir);
 
-        //transform.position += moveDir * speed;
-        rig.AddForce(moveDir * speed);
+        //transform.position += moveDir * speed
+        //rig.AddForce(moveDir * speed);
+    }
+
+    private void LateUpdate()
+    {
+        transform.Translate(0f, 0f, (yDir * speed * Time.deltaTime));
+        transform.Rotate(0f, xDir, 0f);
     }
 
     public void checkScore()
