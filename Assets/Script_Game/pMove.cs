@@ -40,7 +40,7 @@ public class pMove : MonoBehaviour
     private void LateUpdate()
     {
         transform.Translate(0f, 0f, (yDir * speed * Time.deltaTime));
-        transform.Rotate(0f, xDir, 0f);
+        transform.Rotate(0f, (xDir * rotateSpeed * Time.deltaTime), 0f);
     }
 
     public void checkScore()
