@@ -62,13 +62,16 @@
   <ItemGroup>
     <Compile Include="Assets\Script_Game\cubeMove.cs" />
     <Compile Include="Assets\Script_Game\PlayerBulletScript.cs" />
+    <Compile Include="Assets\StartMenuScript.cs" />
     <Compile Include="Assets\cameraFollow.cs" />
     <Compile Include="Assets\Script_Game\BulletScript.cs" />
+    <Compile Include="Assets\Script_Game\Timer.cs" />
     <Compile Include="Assets\Script_Game\eMove.cs" />
     <Compile Include="Assets\Script_Game\pMove.cs" />
     <Compile Include="Assets\Script_Game\GunScript.cs" />
     <Compile Include="Assets\Script_Game\munculMusuh.cs" />
     <Compile Include="Assets\Script_Game\Points.cs" />
+    <Compile Include="Assets\Script_Game\HPScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

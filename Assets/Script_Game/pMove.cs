@@ -7,6 +7,7 @@ using TMPro;
 public class pMove : MonoBehaviour
 {
     public TMP_Text uiPoint;
+    public Timer timer;
 
     private float xDir, yDir;
 
@@ -17,6 +18,7 @@ public class pMove : MonoBehaviour
     public int score =0;
     public int scorReq = 2;
     public bool isWin = false;
+    private bool isOver = false;
 
     public int HP;
     // Start is called before the first frame update
@@ -34,6 +36,15 @@ public class pMove : MonoBehaviour
 
         Vector3 moveDir = new Vector3(xDir, 0.0f, yDir);
 
+        // cek kalau timernya udh selesai tapi HP nya masih di atas 0 dan score nya masih belum sama dengan target, brarti WAKTU HABIS/GAME OVER
+        if (timer.IsTimerFinished && HP > 0 && score < scorReq)
+        {
+            this.isOver = true;
+            uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nGAME OVER";
+            Debug.Log("Game over");
+            speed = 0;
+        }
+
         //transform.position += moveDir * speed
         //rig.AddForce(moveDir * speed);
     }
@@ -49,16 +60,24 @@ public class pMove : MonoBehaviour
         uiPoint.text = "HP : " + HP + "\nPoint : " + score;
         if ((score >= scorReq)) 
         {
-            isWin = true;
+            this.isWin = true;
+            timer.StopTimer(); // stop timer biar timernya berhenti pas player berhasil mencapai target score
             uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nLEVEL COMPLETED";
             Debug.Log("Selesai");
         }
+    }
+
+    public void addHP()
+    {
+        HP++;
+        uiPoint.text = "HP : " + HP + "\nPoint : " + score;
     }
 
     public void checkHP()
     {
         if (HP <= 0)
         {
+            timer.StopTimer(); // stop timer pas playernya HP nya habis
             uiPoint.text = "HP : 0" + "\nPoint : " + score + "\nGAME OVER";
             Debug.Log("Game over");
             speed = 0;
@@ -69,12 +88,12 @@ public class pMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            if(!isWin)
+            if(!this.isWin && !this.isOver)
             {
                 HP--;
             }
 
-            if (isWin)
+            if (this.isWin)
             {
                 uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nLEVEL COMPLETED";
             } else

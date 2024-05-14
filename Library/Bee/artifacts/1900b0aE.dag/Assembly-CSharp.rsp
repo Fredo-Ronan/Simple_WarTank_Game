@@ -364,10 +364,13 @@
 "Assets/Script_Game/cubeMove.cs"
 "Assets/Script_Game/eMove.cs"
 "Assets/Script_Game/GunScript.cs"
+"Assets/Script_Game/HPScript.cs"
 "Assets/Script_Game/munculMusuh.cs"
 "Assets/Script_Game/PlayerBulletScript.cs"
 "Assets/Script_Game/pMove.cs"
 "Assets/Script_Game/Points.cs"
+"Assets/Script_Game/Timer.cs"
+"Assets/StartMenuScript.cs"
 -langversion:9.0
 
 /deterministic
