@@ -13,10 +13,15 @@ public class BulletScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
-        if(collision.gameObject.tag == "Enemy")
+
+        if(collision.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            if (!collision.gameObject.GetComponent<pMove>().isWin)
+            {
+                collision.gameObject.GetComponent<pMove>().HP--;
+            }
+            collision.gameObject.GetComponent<pMove>().checkScore();
+            collision.gameObject.GetComponent<pMove>().checkHP();
         }
 
         Destroy(gameObject);

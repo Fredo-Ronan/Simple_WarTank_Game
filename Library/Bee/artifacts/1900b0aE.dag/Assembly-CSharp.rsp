@@ -365,6 +365,7 @@
 "Assets/Script_Game/eMove.cs"
 "Assets/Script_Game/GunScript.cs"
 "Assets/Script_Game/munculMusuh.cs"
+"Assets/Script_Game/PlayerBulletScript.cs"
 "Assets/Script_Game/pMove.cs"
 "Assets/Script_Game/Points.cs"
 -langversion:9.0

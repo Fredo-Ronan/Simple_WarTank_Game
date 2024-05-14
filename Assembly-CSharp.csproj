@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script_Game\cubeMove.cs" />
+    <Compile Include="Assets\Script_Game\PlayerBulletScript.cs" />
     <Compile Include="Assets\cameraFollow.cs" />
     <Compile Include="Assets\Script_Game\BulletScript.cs" />
     <Compile Include="Assets\Script_Game\eMove.cs" />

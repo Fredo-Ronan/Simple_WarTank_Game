@@ -16,6 +16,7 @@ public class pMove : MonoBehaviour
 
     public int score =0;
     public int scorReq = 2;
+    public bool isWin = false;
 
     public int HP;
     // Start is called before the first frame update
@@ -48,8 +49,19 @@ public class pMove : MonoBehaviour
         uiPoint.text = "HP : " + HP + "\nPoint : " + score;
         if ((score >= scorReq)) 
         {
+            isWin = true;
             uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nLEVEL COMPLETED";
             Debug.Log("Selesai");
+        }
+    }
+
+    public void checkHP()
+    {
+        if (HP <= 0)
+        {
+            uiPoint.text = "HP : 0" + "\nPoint : " + score + "\nGAME OVER";
+            Debug.Log("Game over");
+            speed = 0;
         }
     }
 
@@ -57,8 +69,19 @@ public class pMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            HP--;
-            uiPoint.text = "HP : " + HP + "\nPoint : " + score;
+            if(!isWin)
+            {
+                HP--;
+            }
+
+            if (isWin)
+            {
+                uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nLEVEL COMPLETED";
+            } else
+            {
+                uiPoint.text = "HP : " + HP + "\nPoint : " + score;
+            }
+
             if (HP <= 0)
             {
                 uiPoint.text = "HP : 0" + "\nPoint : " + score + "\nGAME OVER";
