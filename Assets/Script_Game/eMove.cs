@@ -4,8 +4,10 @@ using UnityEngine.AI;
 
 public class eMove : MonoBehaviour
 {
+    public Transform[] waypoints;
     public Transform targetPlayer;
-    private NavMeshAgent agent;
+    public NavMeshAgent agent;
+    public bool loopwp = true;
 
     public Transform observer;
 
@@ -16,19 +18,14 @@ public class eMove : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 10;
     public float shootInterval = 1f; // Interval in seconds
+    private bool attacked = false;
 
     // Start is called before the first frame update
     void Start()
     {
         targetPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         agent = GetComponent<NavMeshAgent>();
-        StartCoroutine(ShootAtIntervals());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        agent.SetDestination(targetPlayer.position);
+        StartCoroutine(PatrolAndShoot());
     }
 
     bool IsTargetVisible()
@@ -66,24 +63,65 @@ public class eMove : MonoBehaviour
         return false;
     }
 
-    IEnumerator ShootAtIntervals()
+    IEnumerator PatrolAndShoot()
     {
+        int wayPoint = 0;
+        agent.SetDestination(waypoints[0].position);
+
         while (true)
         {
             yield return new WaitForSeconds(shootInterval);
 
             if (IsTargetVisible())
             {
+                agent.SetDestination(targetPlayer.position);
                 Shoot();
+                attacked = true;
+            } 
+            else
+            {
+                if (attacked)
+                {
+                    wayPoint = 0;
+                    agent.SetDestination(waypoints[0].position);
+                    attacked = false;
+                }
+
+                if (Vector3.Distance(waypoints[wayPoint].position, transform.position) < 2)
+                {
+                    if (wayPoint == waypoints.Length - 1)
+                    {
+                        if (loopwp)
+                        {
+                            wayPoint = 0;
+                            agent.SetDestination(waypoints[0].position);
+                        }
+                        else
+                        {
+                            break;
+                        }
+
+                    }
+                    else
+                    {
+                        wayPoint++;
+                        agent.SetDestination(waypoints[wayPoint].position);
+                    }
+
+
+                }
+
+                yield return new WaitForSeconds(.1f);
             }
         }
+        yield return null;
     }
 
     void Shoot()
     {
         var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletSpeed;
-        Debug.Log("Bullet fired at " + Time.time);
+        //Debug.Log("Bullet fired at " + Time.time);
     }
 
     void OnDrawGizmos()

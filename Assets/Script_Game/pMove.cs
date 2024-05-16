@@ -16,7 +16,7 @@ public class pMove : MonoBehaviour
     private Rigidbody rig;
 
     public int score =0;
-    public int scorReq = 2;
+    public int scorReq = 1000;
     public bool isWin = false;
     private bool isOver = false;
 
@@ -25,7 +25,7 @@ public class pMove : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody>();
-        uiPoint.text = "HP : 5 \nPoint : 0";
+        uiPoint.text = "Health : " + HP + " \nScore : 0";
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class pMove : MonoBehaviour
         if (timer.IsTimerFinished && HP > 0 && score < scorReq)
         {
             this.isOver = true;
-            uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nGAME OVER";
+            uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nGAME OVER";
             Debug.Log("Game over");
             speed = 0;
         }
@@ -57,12 +57,12 @@ public class pMove : MonoBehaviour
 
     public void checkScore()
     {
-        uiPoint.text = "HP : " + HP + "\nPoint : " + score;
+        uiPoint.text = "Health : " + HP + "\nScore : " + score;
         if ((score >= scorReq)) 
         {
             this.isWin = true;
             timer.StopTimer(); // stop timer biar timernya berhenti pas player berhasil mencapai target score
-            uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nLEVEL COMPLETED";
+            uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nLEVEL COMPLETED";
             Debug.Log("Selesai");
         }
     }
@@ -70,7 +70,13 @@ public class pMove : MonoBehaviour
     public void addHP()
     {
         HP++;
-        uiPoint.text = "HP : " + HP + "\nPoint : " + score;
+        uiPoint.text = "Health : " + HP + "\nScore : " + score;
+    }
+
+    public void addScore()
+    {
+        score += 25;
+        uiPoint.text = "Health : " + HP + "\nScore : " + score;
     }
 
     public void checkHP()
@@ -78,7 +84,7 @@ public class pMove : MonoBehaviour
         if (HP <= 0)
         {
             timer.StopTimer(); // stop timer pas playernya HP nya habis
-            uiPoint.text = "HP : 0" + "\nPoint : " + score + "\nGAME OVER";
+            uiPoint.text = "Health : 0" + "\nScore : " + score + "\nGAME OVER";
             Debug.Log("Game over");
             speed = 0;
         }
@@ -95,18 +101,18 @@ public class pMove : MonoBehaviour
 
             if (this.isWin)
             {
-                uiPoint.text = "HP : " + HP + "\nPoint : " + score + "\nLEVEL COMPLETED";
+                uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nLEVEL COMPLETED";
             } else
             {
-                uiPoint.text = "HP : " + HP + "\nPoint : " + score;
+                uiPoint.text = "Health : " + HP + "\nScore : " + score;
             }
 
             if (HP <= 0)
             {
-                uiPoint.text = "HP : 0" + "\nPoint : " + score + "\nGAME OVER";
+                timer.StopTimer(); // stop timer pas playernya HP nya habis
+                uiPoint.text = "Health : 0" + "\nScore : " + score + "\nGAME OVER";
                 Debug.Log("Game over");
                 speed = 0;
-
             }
             
         }

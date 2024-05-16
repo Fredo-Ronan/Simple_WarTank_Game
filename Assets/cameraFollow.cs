@@ -16,7 +16,14 @@ public class cameraFollow : MonoBehaviour
 
     private void LateUpdate()
     {
+        // Smoothly update the camera's position
         Vector3 targetPosition = target.position + offset;
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref currentVelocity, smooth);
+
+        // Update the camera's rotation to always look at the target's position
+        Vector3 lookDirection = (target.position - transform.position).normalized;
+        Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, targetRotation.eulerAngles.z);
+        //Debug.Log(transform.rotation);
     }
 }
