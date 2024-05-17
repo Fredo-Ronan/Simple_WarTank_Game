@@ -8,7 +8,7 @@ public class munculMusuh : MonoBehaviour
     public GameObject musuh;
     public int xPos;
     public int zPos;
-    public int enemyCount = 0;
+    private int enemyCount = 0;
     void Start()
     {
         StartCoroutine(Spawn());
@@ -19,7 +19,7 @@ public class munculMusuh : MonoBehaviour
         while (enemyCount < 40)
         {
             xPos = Random.Range(1, 50);
-            zPos = Random.Range(1, 31);
+            zPos = Random.Range(1, 100);
             Instantiate(musuh, new Vector3(xPos, 2, zPos), Quaternion.identity);
             yield return new WaitForSeconds(2);
             enemyCount++;

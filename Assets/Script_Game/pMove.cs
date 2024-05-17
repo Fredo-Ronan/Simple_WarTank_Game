@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class pMove : MonoBehaviour
 {
     public TMP_Text uiPoint;
+    public Button tryAgainBtn;
+    public Button nextLevelBtn;
     public Timer timer;
 
     private float xDir, yDir;
@@ -16,7 +19,6 @@ public class pMove : MonoBehaviour
     private Rigidbody rig;
 
     public int score =0;
-    public int scorReq = 1000;
     public bool isWin = false;
     private bool isOver = false;
 
@@ -24,8 +26,10 @@ public class pMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        tryAgainBtn.gameObject.SetActive(false);
+        nextLevelBtn.gameObject.SetActive(false);
         rig = GetComponent<Rigidbody>();
-        uiPoint.text = "Health : " + HP + " \nScore : 0";
+        uiPoint.text = "Health : " + HP;
     }
 
     // Update is called once per frame
@@ -37,11 +41,12 @@ public class pMove : MonoBehaviour
         Vector3 moveDir = new Vector3(xDir, 0.0f, yDir);
 
         // cek kalau timernya udh selesai tapi HP nya masih di atas 0 dan score nya masih belum sama dengan target, brarti WAKTU HABIS/GAME OVER
-        if (timer.IsTimerFinished && HP > 0 && score < scorReq)
+        if (timer.IsTimerFinished)
         {
-            this.isOver = true;
-            uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nGAME OVER";
-            Debug.Log("Game over");
+            this.isWin = true;
+            uiPoint.text = "Health : " + HP + "\nLEVEL COMPLETE";
+            nextLevelBtn.gameObject.SetActive(true);
+            Debug.Log("Selesai");
             speed = 0;
         }
 
@@ -57,26 +62,19 @@ public class pMove : MonoBehaviour
 
     public void checkScore()
     {
-        uiPoint.text = "Health : " + HP + "\nScore : " + score;
-        if ((score >= scorReq)) 
-        {
-            this.isWin = true;
-            timer.StopTimer(); // stop timer biar timernya berhenti pas player berhasil mencapai target score
-            uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nLEVEL COMPLETED";
-            Debug.Log("Selesai");
-        }
+        uiPoint.text = "Health : " + HP;
     }
 
     public void addHP()
     {
-        HP++;
-        uiPoint.text = "Health : " + HP + "\nScore : " + score;
+        HP += 10;
+        uiPoint.text = "Health : " + HP;
     }
 
     public void addScore()
     {
         score += 25;
-        uiPoint.text = "Health : " + HP + "\nScore : " + score;
+        uiPoint.text = "Health : " + HP;
     }
 
     public void checkHP()
@@ -84,7 +82,8 @@ public class pMove : MonoBehaviour
         if (HP <= 0)
         {
             timer.StopTimer(); // stop timer pas playernya HP nya habis
-            uiPoint.text = "Health : 0" + "\nScore : " + score + "\nGAME OVER";
+            uiPoint.text = "Health : 0" + "\nGAME OVER";
+            tryAgainBtn.gameObject.SetActive(true);
             Debug.Log("Game over");
             speed = 0;
         }
@@ -101,16 +100,18 @@ public class pMove : MonoBehaviour
 
             if (this.isWin)
             {
-                uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nLEVEL COMPLETED";
+                nextLevelBtn.gameObject.SetActive(true);
+                uiPoint.text = "Health : " + HP + "\nLEVEL COMPLETED";
             } else
             {
-                uiPoint.text = "Health : " + HP + "\nScore : " + score;
+                uiPoint.text = "Health : " + HP;
             }
 
             if (HP <= 0)
             {
                 timer.StopTimer(); // stop timer pas playernya HP nya habis
-                uiPoint.text = "Health : 0" + "\nScore : " + score + "\nGAME OVER";
+                uiPoint.text = "Health : 0" + "\nGAME OVER";
+                tryAgainBtn.gameObject.SetActive(true);
                 Debug.Log("Game over");
                 speed = 0;
             }

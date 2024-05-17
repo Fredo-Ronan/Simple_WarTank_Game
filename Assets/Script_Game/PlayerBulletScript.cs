@@ -16,8 +16,6 @@ public class PlayerBulletScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<eMove>().targetPlayer.GetComponent<pMove>().addScore();
-            collision.gameObject.GetComponent<eMove>().targetPlayer.GetComponent<pMove>().checkScore();
             Destroy(collision.gameObject);
         }
 
