@@ -22,8 +22,19 @@ public class eMoveChase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        targetPlayer = GameObject.FindGameObjectWithTag("Player").transform;
-        observer = GameObject.FindGameObjectWithTag("Enemy").transform;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
+
+        if(player != null)
+        {
+            targetPlayer = player.transform;
+        }
+
+        if(enemy != null)
+        {
+            observer = enemy.transform;
+        }
+
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(ChaseAndShoot());
     }

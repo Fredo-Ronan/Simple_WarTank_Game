@@ -371,6 +371,7 @@
 "Assets/Script_Game/Level 1/HpScriptLvl1.cs"
 "Assets/Script_Game/Level 1/PlayerBulletLvl1.cs"
 "Assets/Script_Game/Level 1/pMoveLvl1.cs"
+"Assets/Script_Game/Level 3/pMoveLvl3.cs"
 "Assets/Script_Game/munculMusuh.cs"
 "Assets/Script_Game/NextLevel.cs"
 "Assets/Script_Game/PlayerBulletScript.cs"

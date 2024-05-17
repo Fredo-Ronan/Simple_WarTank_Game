@@ -75,6 +75,7 @@
     <Compile Include="Assets\Script_Game\eMove.cs" />
     <Compile Include="Assets\Script_Game\pMove.cs" />
     <Compile Include="Assets\Script_Game\Level 1\BulletScriptLvl1.cs" />
+    <Compile Include="Assets\Script_Game\Level 3\pMoveLvl3.cs" />
     <Compile Include="Assets\Script_Game\GunScript.cs" />
     <Compile Include="Assets\Script_Game\NextLevel.cs" />
     <Compile Include="Assets\Script_Game\munculMusuh.cs" />

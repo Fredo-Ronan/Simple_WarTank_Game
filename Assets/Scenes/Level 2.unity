@@ -4104,7 +4104,7 @@ MonoBehaviour:
   targetPlayer: {fileID: 0}
   agent: {fileID: 0}
   loopwp: 1
-  observer: {fileID: 0}
+  observer: {fileID: 1289096912}
   fieldOfViewAngle: 180
   viewDistance: 50
   bulletSpawnPoint: {fileID: 1850331749}
@@ -4438,7 +4438,6 @@ GameObject:
   - component: {fileID: 1468182992}
   - component: {fileID: 1468182991}
   - component: {fileID: 1468182990}
-  - component: {fileID: 1468182989}
   - component: {fileID: 1468182988}
   m_Layer: 5
   m_Name: NextLevel
@@ -4477,18 +4476,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0603bdbe1e2f53b448f4ddc60bf818b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1468182989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468182986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 999fab9f7eaa19f40a16729aa96154db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1468182990
