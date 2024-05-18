@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script_Game\cubeMove.cs" />
     <Compile Include="Assets\Script_Game\Level 3\Bullet Script Lvl 3.cs" />
     <Compile Include="Assets\Script_Game\TryAgain.cs" />
+    <Compile Include="Assets\Script_Game\QuitScript.cs" />
     <Compile Include="Assets\Script_Game\PlayerBulletScript.cs" />
     <Compile Include="Assets\Script_Game\eMoveChase.cs" />
     <Compile Include="Assets\Script_Game\Level 1\GunScriptLvl1.cs" />

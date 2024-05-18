@@ -381,6 +381,7 @@
 "Assets/Script_Game/PlayerBulletScript.cs"
 "Assets/Script_Game/pMove.cs"
 "Assets/Script_Game/Points.cs"
+"Assets/Script_Game/QuitScript.cs"
 "Assets/Script_Game/Timer.cs"
 "Assets/Script_Game/TryAgain.cs"
 "Assets/StartMenuScript.cs"

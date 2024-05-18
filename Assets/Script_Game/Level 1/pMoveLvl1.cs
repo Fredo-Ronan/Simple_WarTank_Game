@@ -50,6 +50,11 @@ public class pMoveLvl1 : MonoBehaviour
             speed = 0;
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
         //transform.position += moveDir * speed
         //rig.AddForce(moveDir * speed);
     }
