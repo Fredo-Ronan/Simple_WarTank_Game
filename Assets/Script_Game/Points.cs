@@ -9,9 +9,9 @@ public class Points : MonoBehaviour
         if (other.CompareTag("Player"))
         {
            
-            other.GetComponent<pMove>().score++;
+            other.GetComponent<pMoveLvl3>().addScore();
             //Debug.Log("point " + other.GetComponent<pMove>().score);
-            other.GetComponent<pMove>().checkScore();
+            other.GetComponent<pMoveLvl3>().checkScorePoint();
             Destroy(gameObject);
         }
     }

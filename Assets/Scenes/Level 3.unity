@@ -813,10 +813,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2494308179938202755, guid: 5a97645b1dd52264c9f99e85a71da800, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 232987353}
+      addedObject: {fileID: 232987362}
     - targetCorrespondingSourceObject: {fileID: 719305135105945633, guid: 5a97645b1dd52264c9f99e85a71da800, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 232987354}
+      addedObject: {fileID: 1303672678}
   m_SourcePrefab: {fileID: 100100000, guid: 5a97645b1dd52264c9f99e85a71da800, type: 3}
 --- !u!1 &232987349 stripped
 GameObject:
@@ -833,12 +833,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4675560555060362437, guid: 5a97645b1dd52264c9f99e85a71da800, type: 3}
   m_PrefabInstance: {fileID: 232987348}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &232987352 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 719305135105945633, guid: 5a97645b1dd52264c9f99e85a71da800, type: 3}
-  m_PrefabInstance: {fileID: 232987348}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &232987353
+--- !u!114 &232987362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -847,7 +842,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 232987349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d20bfc02fff904eb9edb62392044be, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e087f14b1c38b644ba5ae0a871d2086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   uiPoint: {fileID: 441207963}
@@ -856,27 +851,12 @@ MonoBehaviour:
   timer: {fileID: 77526671}
   speed: 5
   rotateSpeed: 50
-  score: 0
-  scoreReq: 1000
+  scorePoint: 0
+  kill: 0
+  killReq: 100
+  pointReq: 1000
   isWin: 0
-  HP: 50
---- !u!114 &232987354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232987352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7347e57ec4473045bd5af758fe0e92e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 232987349}
-  bulletSpawnPoint: {fileID: 422635267}
-  bulletPrefab: {fileID: 7817103345090678944, guid: 26ff17e57f43f0b4aad06622f49287f8, type: 3}
-  bulletSpeed: 10
-  fireRate: 1
+  HP: 100
 --- !u!1001 &236216852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4258,6 +4238,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2567486513026926087, guid: bfc4990d1699e324bbafb6733ca6584b, type: 3}
   m_PrefabInstance: {fileID: 1270073685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1303672677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 719305135105945633, guid: 5a97645b1dd52264c9f99e85a71da800, type: 3}
+  m_PrefabInstance: {fileID: 232987348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1303672678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303672677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f7b822f1cd524458502852cdb08927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 232987349}
+  bulletSpawnPoint: {fileID: 422635267}
+  bulletPrefab: {fileID: 3727071470771845575, guid: 5006e47878eb8c94388ab9fe2a100e03, type: 3}
+  bulletSpeed: 10
+  fireRate: 1
 --- !u!1 &1359163635
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,7 +4793,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1621932338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2519899944d0da542ba80fb1f9b4be4e, type: 3}
+  m_Script: {fileID: 11500000, guid: f14d62e738f63c44c87b03c741cff2dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   musuh: {fileID: 1624545259}
@@ -5044,7 +5046,7 @@ MonoBehaviour:
   fieldOfViewAngle: 180
   viewDistance: 40
   bulletSpawnPoint: {fileID: 355014851}
-  bulletPrefab: {fileID: 1230682801162953867, guid: bd2e89705bf7c6447b6b41f10849b811, type: 3}
+  bulletPrefab: {fileID: 1880608374247080861, guid: 4eaa386199a53e0438a496ccaf3da00b, type: 3}
   bulletSpeed: 10
   shootInterval: 1
 --- !u!65 &1624545264

@@ -23,16 +23,10 @@ public class eMoveChase : MonoBehaviour
     void Start()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
 
         if(player != null)
         {
             targetPlayer = player.transform;
-        }
-
-        if(enemy != null)
-        {
-            observer = enemy.transform;
         }
 
         agent = GetComponent<NavMeshAgent>();

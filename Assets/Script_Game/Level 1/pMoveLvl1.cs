@@ -67,6 +67,7 @@ public class pMoveLvl1 : MonoBehaviour
         {
             timer.StopTimer();
             uiPoint.text = "Health : " + HP + "\nScore : " + score + "\nLEVEL COMPLETED";
+            nextLevelBtn.gameObject.SetActive(true);
             this.isWin=true;
         }
     }

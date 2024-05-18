@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script_Game\cubeMove.cs" />
+    <Compile Include="Assets\Script_Game\Level 3\Bullet Script Lvl 3.cs" />
     <Compile Include="Assets\Script_Game\TryAgain.cs" />
     <Compile Include="Assets\Script_Game\PlayerBulletScript.cs" />
     <Compile Include="Assets\Script_Game\eMoveChase.cs" />
@@ -68,10 +69,13 @@
     <Compile Include="Assets\Script_Game\Level 1\HpScriptLvl1.cs" />
     <Compile Include="Assets\StartMenuScript.cs" />
     <Compile Include="Assets\cameraFollow.cs" />
+    <Compile Include="Assets\Script_Game\Level 3\GunScriptLvl3.cs" />
+    <Compile Include="Assets\Script_Game\Level 3\Player Bullet Script Lvl 3.cs" />
     <Compile Include="Assets\Script_Game\BulletScript.cs" />
     <Compile Include="Assets\Script_Game\Level 1\PlayerBulletLvl1.cs" />
     <Compile Include="Assets\Script_Game\Level 1\pMoveLvl1.cs" />
     <Compile Include="Assets\Script_Game\Timer.cs" />
+    <Compile Include="Assets\Script_Game\munculMusuhLvl3.cs" />
     <Compile Include="Assets\Script_Game\eMove.cs" />
     <Compile Include="Assets\Script_Game\pMove.cs" />
     <Compile Include="Assets\Script_Game\Level 1\BulletScriptLvl1.cs" />

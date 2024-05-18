@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|d:\\fredo\\unity online projects\\gamedev_08\\assets\\script_game\\level 3\\pmovelvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 3\\pmovelvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\munculmusuh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\munculmusuh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 1\\pmovelvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 1\\pmovelvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 1\\playerbulletlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 1\\playerbulletlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 1\\gunscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 1\\gunscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\emovechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\emovechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|d:\\fredo\\unity online projects\\gamedev_08\\assets\\script_game\\munculmusuhlvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\munculmusuhlvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 3\\pmovelvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 3\\pmovelvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 3\\player bullet script lvl 3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 3\\player bullet script lvl 3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 3\\gunscriptlvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 3\\gunscriptlvl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 3\\bullet script lvl 3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 3\\bullet script lvl 3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 1\\bulletscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 1\\bulletscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|d:\\fredo\\unity online projects\\gamedev_08\\assets\\script_game\\level 1\\pmovelvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 1\\pmovelvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\points.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\points.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\emovechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\emovechase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 1\\playerbulletlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\level 1\\playerbulletlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\script_game\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\script_game\\level 1\\hpscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|D:\\FREDO\\Unity Online Projects\\GameDev_08\\assets\\startmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF0880D-454D-35A1-C40C-43BFE1199D06}|Assembly-CSharp.csproj|solutionrelative:assets\\startmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\fredo\\unity online projects\\gamedev_08\\assets\\script_game\\gunscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\script_game\\gunscriptlvl1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,24 +110,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pMoveLvl3.cs",
-              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
-              "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
-              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
-              "RelativeToolTip": "Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwIQAAABtAAAA",
+              "DocumentIndex": 4,
+              "Title": "munculMusuhLvl3.cs",
+              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\munculMusuhLvl3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script_Game\\munculMusuhLvl3.cs",
+              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\munculMusuhLvl3.cs",
+              "RelativeToolTip": "Assets\\Script_Game\\munculMusuhLvl3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T17:05:33.639Z",
+              "WhenOpened": "2024-05-18T07:36:54.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Bullet Script Lvl 3.cs",
+              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\Bullet Script Lvl 3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 3\\Bullet Script Lvl 3.cs",
+              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\Bullet Script Lvl 3.cs",
+              "RelativeToolTip": "Assets\\Script_Game\\Level 3\\Bullet Script Lvl 3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:28:14.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player Bullet Script Lvl 3.cs",
+              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\Player Bullet Script Lvl 3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 3\\Player Bullet Script Lvl 3.cs",
+              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\Player Bullet Script Lvl 3.cs",
+              "RelativeToolTip": "Assets\\Script_Game\\Level 3\\Player Bullet Script Lvl 3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:22:36.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GunScriptLvl3.cs",
+              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\GunScriptLvl3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 3\\GunScriptLvl3.cs",
+              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\GunScriptLvl3.cs",
+              "RelativeToolTip": "Assets\\Script_Game\\Level 3\\GunScriptLvl3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:10:47.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GunScriptLvl1.cs",
+              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\GunScriptLvl1.cs",
+              "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 1\\GunScriptLvl1.cs",
+              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\GunScriptLvl1.cs",
+              "RelativeToolTip": "Assets\\Script_Game\\Level 1\\GunScriptLvl1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:10:24.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pMoveLvl3.cs",
+              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
+              "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
+              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
+              "RelativeToolTip": "Assets\\Script_Game\\Level 3\\pMoveLvl3.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:05:33.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HpScriptLvl1.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\HpScriptLvl1.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 1\\HpScriptLvl1.cs",
@@ -123,70 +200,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "pMoveLvl1.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\pMoveLvl1.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 1\\pMoveLvl1.cs",
               "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\pMoveLvl1.cs",
               "RelativeToolTip": "Assets\\Script_Game\\Level 1\\pMoveLvl1.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAcwH4AAAAFAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAA6wEUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T08:41:23.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "PlayerBulletLvl1.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\PlayerBulletLvl1.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 1\\PlayerBulletLvl1.cs",
               "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\PlayerBulletLvl1.cs",
               "RelativeToolTip": "Assets\\Script_Game\\Level 1\\PlayerBulletLvl1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABpAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:37:52.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T08:37:52.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "BulletScriptLvl1.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\BulletScriptLvl1.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\Level 1\\BulletScriptLvl1.cs",
               "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Level 1\\BulletScriptLvl1.cs",
               "RelativeToolTip": "Assets\\Script_Game\\Level 1\\BulletScriptLvl1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:33:09.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T08:33:09.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GunScriptLvl1.cs",
-              "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\GunScriptLvl1.cs",
-              "RelativeDocumentMoniker": "Assets\\Script_Game\\GunScriptLvl1.cs",
-              "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\GunScriptLvl1.cs",
-              "RelativeToolTip": "Assets\\Script_Game\\GunScriptLvl1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:28:40.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "eMoveChase.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\eMoveChase.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\eMoveChase.cs",
               "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\eMoveChase.cs",
               "RelativeToolTip": "Assets\\Script_Game\\eMoveChase.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFMAAAAiAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:12:04.266Z"
+              "WhenOpened": "2024-05-17T06:12:04.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "TryAgain.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\TryAgain.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\TryAgain.cs",
@@ -198,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "NextLevel.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\NextLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\NextLevel.cs",
@@ -210,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "cameraFollow.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\cameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\cameraFollow.cs",
@@ -222,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Timer.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\Timer.cs",
@@ -230,12 +294,11 @@
               "RelativeToolTip": "Assets\\Script_Game\\Timer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:55:50.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:55:50.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "StartMenuScript.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\StartMenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\StartMenuScript.cs",
@@ -247,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "HPScript.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\HPScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\HPScript.cs",
@@ -259,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "PlayerBulletScript.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\PlayerBulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\PlayerBulletScript.cs",
@@ -271,19 +334,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Points.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Points.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\Points.cs",
               "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\Points.cs",
               "RelativeToolTip": "Assets\\Script_Game\\Points.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T04:24:38.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "BulletScript.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\BulletScript.cs",
@@ -295,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "GunScript.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\GunScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\GunScript.cs",
@@ -307,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "eMove.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\eMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\eMove.cs",
@@ -319,20 +382,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "munculMusuh.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\munculMusuh.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\munculMusuh.cs",
               "ToolTip": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\munculMusuh.cs",
               "RelativeToolTip": "Assets\\Script_Game\\munculMusuh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T08:14:06.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "cubeMove.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\cubeMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\cubeMove.cs",
@@ -344,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "pMove.cs",
               "DocumentMoniker": "D:\\FREDO\\Unity Online Projects\\GameDev_08\\Assets\\Script_Game\\pMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script_Game\\pMove.cs",

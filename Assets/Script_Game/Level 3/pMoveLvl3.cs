@@ -19,7 +19,7 @@ public class pMoveLvl3 : MonoBehaviour
 
     public int scorePoint = 0;
     public int kill = 0;
-    public int killReq = 40;
+    public int killReq = 100;
     public int pointReq = 1000;
     public bool isWin = false;
     private bool isOver = false;
@@ -76,7 +76,7 @@ public class pMoveLvl3 : MonoBehaviour
     public void checkKill()
     {
         uiPoint.text = "Health : " + HP + "\nKill : " + kill + "\nPoints : " + scorePoint;
-        if(kill < killReq)
+        if(kill >= killReq)
         {
             timer.StopTimer();
             uiPoint.text = "Health : " + HP + "\nKill : " + kill + "\nPoints : " + scorePoint + "\nLEVEL COMPLETED";
@@ -87,6 +87,12 @@ public class pMoveLvl3 : MonoBehaviour
     public void addHP()
     {
         HP += 10;
+        uiPoint.text = "Health : " + HP + "\nKill : " + kill + "\nPoints : " + scorePoint;
+    }
+
+    public void addKill()
+    {
+        kill++;
         uiPoint.text = "Health : " + HP + "\nKill : " + kill + "\nPoints : " + scorePoint;
     }
 
